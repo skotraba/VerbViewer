@@ -1,0 +1,30 @@
+@import "../../Variables.scss";
+
+.Main {
+  background-color: $primary;
+  padding: 5rem;
+  flex: 1;
+  font-size: 1.2rem;
+
+  &__span{
+    font-style: italic;
+  }
+
+  &__table {
+    margin: 2rem 0;
+
+
+    &__one{
+
+    }
+
+    &__two {
+
+    }
+  }
+}
+
+td{
+  padding: .7rem;
+  border: lightgray 1px solid;
+}
