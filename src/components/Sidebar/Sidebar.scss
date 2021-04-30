@@ -2,8 +2,9 @@
 
 .Sidebar {
   background-color: $secondary;
-  height: 100rem;
+  height: 100vh;
   font-size: 1.2rem;
+  overflow: auto;
 
   &__list {
     display: flex;

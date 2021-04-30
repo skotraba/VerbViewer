@@ -1,5 +1,5 @@
 //Data
-import * as Data from '../components/Sidebar/Verbs';
+import * as Data from '../VerbData';
 
 
 const initialState = {

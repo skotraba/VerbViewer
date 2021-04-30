@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 //Data
-import * as Data from './Verbs';
+import * as Data from '../../VerbData';
 
 //CSS
 import './Sidebar.scss'
@@ -19,7 +19,7 @@ class Sidebar extends Component {
           <div 
           onClick={() => this.props.onVerb(index)}
           className="Sidebar__list-item" 
-          key={verb.id + index}>{verb.verb}</div>
+          key={verb.id + index}>{verb.verbo}</div>
         ))}
         </div>
       </div>
