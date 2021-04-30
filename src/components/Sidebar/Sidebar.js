@@ -12,13 +12,17 @@ import './Sidebar.scss'
 class Sidebar extends Component {
 
   render() {
+
+    let active = this.props.verb.id - 1;
+
+
     return (
       <div className="Sidebar" >
         <div className="Sidebar__list" >
         {Data.verbs.map((verb, index) => (
           <div 
           onClick={() => this.props.onVerb(index)}
-          className="Sidebar__list-item" 
+          className = {index == active ? "Sidebar__list-item--active" : "Sidebar__list-item"}
           key={verb.id + index}>{verb.verbo}</div>
         ))}
         </div>

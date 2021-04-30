@@ -21,6 +21,14 @@
     cursor: pointer;
     transition: all .8s;
 
+    &--active {
+      padding: 1rem 1.5rem;
+      border-bottom: .1rem solid $primary;
+      cursor: pointer;
+      transition: all .8s;
+      background-color: yellowgreen;
+    }
+
     &:hover{
       background-color: yellowgreen;
     }
