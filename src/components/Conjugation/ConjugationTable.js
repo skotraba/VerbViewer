@@ -7,8 +7,11 @@ class ConjugationTable extends Component {
     return (
         <table>
           <thead>
-            <td colspan="2" style={{textAlign:"center"}}>{this.props.tiempo}</td>
+            <tr>
+              <td colSpan="2" style={{textAlign:"center"}}>{this.props.tiempo}</td>
+            </tr>
           </thead>
+         
           <tbody>
             <tr>
               <td>
