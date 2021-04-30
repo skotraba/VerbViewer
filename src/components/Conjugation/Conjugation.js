@@ -46,11 +46,11 @@ class Conjugation extends Component {
 
   render() {
 
-    let current = this.props.verb.id - 1
+    let current = this.props.verb.id - 1;
+    console.log(verbs)
 
     return (
       <div className="ConContainer">
-        {
           <div>
             <h3>{verbs[current][0].modo}</h3>
             <Table
@@ -62,44 +62,27 @@ class Conjugation extends Component {
             vs={verbs[current][0].vs}
             ellos={verbs[current][0].ellos}/>
           </div>
+          <div>
+            <Table
+            tiempo={verbs[current][1].tiempo}
+            yo={verbs[current][1].yo}
+            tu={verbs[current][1].tu}
+            el={verbs[current][1].el}
+            ns={verbs[current][1].ns}
+            vs={verbs[current][1].vs}
+            ellos={verbs[current][1].ellos}/>
+          </div>
+          <div>
+            <Table
+            tiempo={verbs[current][2].tiempo}
+            yo={verbs[current][2].yo}
+            tu={verbs[current][2].tu}
+            el={verbs[current][2].el}
+            ns={verbs[current][2].ns}
+            vs={verbs[current][2].vs}
+            ellos={verbs[current][2].ellos}/>
+          </div>
         
-        
-        
-        
-        /* <div>
-          <h3>{verbs[0].modo}</h3>
-          <Table
-          tiempo={verbs[0].tiempo}
-          yo={verbs[0].yo}
-          tu={verbs[0].tu}
-          el={verbs[0].el}
-          ns={verbs[0].ns}
-          vs={verbs[0].vs}
-          ellos={verbs[0].ellos}/>
-        </div>
-        <div>
-          <Table
-          tiempo={verbs[1].tiempo}
-          yo={verbs[1].yo}
-          tu={verbs[1].tu}
-          el={verbs[1].el}
-          ns={verbs[1].ns}
-          vs={verbs[1].vs}
-          ellos={verbs[1].ellos}/>
-        </div>
-        <div>
-          <Table
-          tiempo={verbs[2].tiempo}
-          yo={verbs[2].yo}
-          tu={verbs[2].tu}
-          el={verbs[2].el}
-          ns={verbs[2].ns}
-          vs={verbs[2].vs}
-          ellos={verbs[2].ellos}/>
-        </div>
-       
-        */
-        }
       </div>
      
     );

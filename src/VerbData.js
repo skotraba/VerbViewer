@@ -1,4 +1,4 @@
-export const verbs = 
+export const verbs =
 [
   {
     "id": 1,
@@ -63,7 +63,7 @@ export const verbs =
   {
     "id": 7,
     "verbo": "aburrirse",
-    "gerund": "aburri�ndose",
+    "gerund": "aburriéndose",
     "partpasado": "aburrido",
     "irregular": 0,
     "reflexivo": 1,
@@ -123,7 +123,7 @@ export const verbs =
   {
     "id": 13,
     "verbo": "acercarse",
-    "gerund": "acerc�ndose",
+    "gerund": "acercándose",
     "partpasado": "acercado",
     "irregular": 0,
     "reflexivo": 1,
@@ -132,9 +132,9 @@ export const verbs =
   },
   {
     "id": 14,
-    "verbo": "acompa�ar",
-    "gerund": "acompa�ando",
-    "partpasado": "acompa�ado",
+    "verbo": "acompañar",
+    "gerund": "acompañando",
+    "partpasado": "acompañado",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -173,7 +173,7 @@ export const verbs =
   {
     "id": 18,
     "verbo": "acordarse",
-    "gerund": "acord�ndose",
+    "gerund": "acordándose",
     "partpasado": "acordado",
     "irregular": 1,
     "reflexivo": 1,
@@ -203,7 +203,7 @@ export const verbs =
   {
     "id": 21,
     "verbo": "acostarse",
-    "gerund": "acost�ndose",
+    "gerund": "acostándose",
     "partpasado": "acostado",
     "irregular": 1,
     "reflexivo": 1,
@@ -223,7 +223,7 @@ export const verbs =
   {
     "id": 23,
     "verbo": "acostumbrarse",
-    "gerund": "acostumbr�ndose",
+    "gerund": "acostumbrándose",
     "partpasado": "acostumbrado",
     "irregular": 0,
     "reflexivo": 1,
@@ -313,7 +313,7 @@ export const verbs =
   {
     "id": 32,
     "verbo": "afeitarse",
-    "gerund": "afeit�ndose",
+    "gerund": "afeitándose",
     "partpasado": "afeitado",
     "irregular": 0,
     "reflexivo": 1,
@@ -423,7 +423,7 @@ export const verbs =
   {
     "id": 43,
     "verbo": "alegrarse",
-    "gerund": "alegr�ndose",
+    "gerund": "alegrándose",
     "partpasado": "alegrado",
     "irregular": 0,
     "reflexivo": 1,
@@ -502,9 +502,9 @@ export const verbs =
   },
   {
     "id": 51,
-    "verbo": "a�adir",
-    "gerund": "a�adiendo",
-    "partpasado": "a�adido",
+    "verbo": "añadir",
+    "gerund": "añadiendo",
+    "partpasado": "añadido",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -653,7 +653,7 @@ export const verbs =
   {
     "id": 66,
     "verbo": "arrepentirse",
-    "gerund": "arrepinti�ndose",
+    "gerund": "arrepintiéndose",
     "partpasado": "arrepentido",
     "irregular": 1,
     "reflexivo": 1,
@@ -713,7 +713,7 @@ export const verbs =
   {
     "id": 72,
     "verbo": "asustarse",
-    "gerund": "asust�ndose",
+    "gerund": "asustándose",
     "partpasado": "asustado",
     "irregular": 0,
     "reflexivo": 1,
@@ -744,7 +744,7 @@ export const verbs =
     "id": 75,
     "verbo": "atraer",
     "gerund": "atrayendo",
-    "partpasado": "atra�do",
+    "partpasado": "atraído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 0,
@@ -763,7 +763,7 @@ export const verbs =
   {
     "id": 77,
     "verbo": "atreverse",
-    "gerund": "atrevi�ndose",
+    "gerund": "atreviéndose",
     "partpasado": "atrevido",
     "irregular": 0,
     "reflexivo": 1,
@@ -842,9 +842,9 @@ export const verbs =
   },
   {
     "id": 85,
-    "verbo": "ba�ar",
-    "gerund": "ba�ando",
-    "partpasado": "ba�ado",
+    "verbo": "bañar",
+    "gerund": "bañando",
+    "partpasado": "bañado",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -852,9 +852,9 @@ export const verbs =
   },
   {
     "id": 86,
-    "verbo": "ba�arse",
-    "gerund": "ba��ndose",
-    "partpasado": "ba�ado",
+    "verbo": "bañarse",
+    "gerund": "bañándose",
+    "partpasado": "bañado",
     "irregular": 0,
     "reflexivo": 1,
     "comun": 0,
@@ -963,7 +963,7 @@ export const verbs =
   {
     "id": 97,
     "verbo": "broncearse",
-    "gerund": "bronce�ndose",
+    "gerund": "bronceándose",
     "partpasado": "bronceado",
     "irregular": 0,
     "reflexivo": 1,
@@ -993,7 +993,7 @@ export const verbs =
   {
     "id": 100,
     "verbo": "burlarse",
-    "gerund": "burl�ndose",
+    "gerund": "burlándose",
     "partpasado": "burlado",
     "irregular": 0,
     "reflexivo": 1,
@@ -1024,7 +1024,7 @@ export const verbs =
     "id": 103,
     "verbo": "caer",
     "gerund": "cayendo",
-    "partpasado": "ca�do",
+    "partpasado": "caído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 1,
@@ -1053,7 +1053,7 @@ export const verbs =
   {
     "id": 106,
     "verbo": "calentarse",
-    "gerund": "calent�ndose",
+    "gerund": "calentándose",
     "partpasado": "calentado",
     "irregular": 1,
     "reflexivo": 1,
@@ -1073,7 +1073,7 @@ export const verbs =
   {
     "id": 108,
     "verbo": "callarse",
-    "gerund": "call�ndose",
+    "gerund": "callándose",
     "partpasado": "callado",
     "irregular": 0,
     "reflexivo": 1,
@@ -1093,7 +1093,7 @@ export const verbs =
   {
     "id": 110,
     "verbo": "calmarse",
-    "gerund": "calm�ndose",
+    "gerund": "calmándose",
     "partpasado": "calmado",
     "irregular": 0,
     "reflexivo": 1,
@@ -1133,7 +1133,7 @@ export const verbs =
   {
     "id": 114,
     "verbo": "cansarse",
-    "gerund": "cans�ndose",
+    "gerund": "cansándose",
     "partpasado": "cansado",
     "irregular": 0,
     "reflexivo": 1,
@@ -1173,7 +1173,7 @@ export const verbs =
   {
     "id": 118,
     "verbo": "casarse",
-    "gerund": "cas�ndose",
+    "gerund": "casándose",
     "partpasado": "casado",
     "irregular": 0,
     "reflexivo": 1,
@@ -1483,7 +1483,7 @@ export const verbs =
   {
     "id": 149,
     "verbo": "comunicarse",
-    "gerund": "comunic�ndose",
+    "gerund": "comunicándose",
     "partpasado": "comunicado",
     "irregular": 1,
     "reflexivo": 1,
@@ -1854,7 +1854,7 @@ export const verbs =
     "id": 186,
     "verbo": "creer",
     "gerund": "creyendo",
-    "partpasado": "cre�do",
+    "partpasado": "creído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 1,
@@ -1873,7 +1873,7 @@ export const verbs =
   {
     "id": 188,
     "verbo": "criarse",
-    "gerund": "cri�ndose",
+    "gerund": "criándose",
     "partpasado": "criado",
     "irregular": 1,
     "reflexivo": 1,
@@ -2003,7 +2003,7 @@ export const verbs =
   {
     "id": 201,
     "verbo": "decidirse",
-    "gerund": "decidi�ndose",
+    "gerund": "decidiéndose",
     "partpasado": "decidido",
     "irregular": 0,
     "reflexivo": 1,
@@ -2053,7 +2053,7 @@ export const verbs =
   {
     "id": 206,
     "verbo": "dedicarse",
-    "gerund": "dedic�ndose",
+    "gerund": "dedicándose",
     "partpasado": "dedicado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2173,7 +2173,7 @@ export const verbs =
   {
     "id": 218,
     "verbo": "desarrollarse",
-    "gerund": "desarroll�ndose",
+    "gerund": "desarrollándose",
     "partpasado": "desarrollado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2273,7 +2273,7 @@ export const verbs =
   {
     "id": 228,
     "verbo": "despertarse",
-    "gerund": "despert�ndose",
+    "gerund": "despertándose",
     "partpasado": "despertado",
     "irregular": 1,
     "reflexivo": 1,
@@ -2303,7 +2303,7 @@ export const verbs =
   {
     "id": 231,
     "verbo": "detenerse",
-    "gerund": "deteni�ndose",
+    "gerund": "deteniéndose",
     "partpasado": "detenido",
     "irregular": 1,
     "reflexivo": 1,
@@ -2362,9 +2362,9 @@ export const verbs =
   },
   {
     "id": 237,
-    "verbo": "dise�ar",
-    "gerund": "dise�ando",
-    "partpasado": "dise�ado",
+    "verbo": "diseñar",
+    "gerund": "diseñando",
+    "partpasado": "diseñado",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -2433,7 +2433,7 @@ export const verbs =
   {
     "id": 244,
     "verbo": "divertirse",
-    "gerund": "divirti�ndose",
+    "gerund": "divirtiéndose",
     "partpasado": "divertido",
     "irregular": 1,
     "reflexivo": 1,
@@ -2453,7 +2453,7 @@ export const verbs =
   {
     "id": 246,
     "verbo": "divorciarse",
-    "gerund": "divorci�ndose",
+    "gerund": "divorciándose",
     "partpasado": "divorciado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2493,7 +2493,7 @@ export const verbs =
   {
     "id": 250,
     "verbo": "dormirse",
-    "gerund": "durmi�ndose",
+    "gerund": "durmiéndose",
     "partpasado": "dormido",
     "irregular": 1,
     "reflexivo": 1,
@@ -2513,7 +2513,7 @@ export const verbs =
   {
     "id": 252,
     "verbo": "ducharse",
-    "gerund": "duch�ndose",
+    "gerund": "duchándose",
     "partpasado": "duchado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2553,7 +2553,7 @@ export const verbs =
   {
     "id": 256,
     "verbo": "echarse",
-    "gerund": "ech�ndose",
+    "gerund": "echándose",
     "partpasado": "echado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2623,7 +2623,7 @@ export const verbs =
   {
     "id": 263,
     "verbo": "emborracharse",
-    "gerund": "emborrach�ndose",
+    "gerund": "emborrachándose",
     "partpasado": "emborrachado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2673,7 +2673,7 @@ export const verbs =
   {
     "id": 268,
     "verbo": "enamorarse",
-    "gerund": "enamor�ndose",
+    "gerund": "enamorándose",
     "partpasado": "enamorado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2723,7 +2723,7 @@ export const verbs =
   {
     "id": 273,
     "verbo": "enfadarse",
-    "gerund": "enfad�ndose",
+    "gerund": "enfadándose",
     "partpasado": "enfadado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2743,7 +2743,7 @@ export const verbs =
   {
     "id": 275,
     "verbo": "enfermarse",
-    "gerund": "enferm�ndose",
+    "gerund": "enfermándose",
     "partpasado": "enfermado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2763,7 +2763,7 @@ export const verbs =
   {
     "id": 277,
     "verbo": "enflaquecerse",
-    "gerund": "enflaqueci�ndose",
+    "gerund": "enflaqueciéndose",
     "partpasado": "enflaquecido",
     "irregular": 1,
     "reflexivo": 1,
@@ -2772,9 +2772,9 @@ export const verbs =
   },
   {
     "id": 278,
-    "verbo": "enga�ar",
-    "gerund": "enga�ando",
-    "partpasado": "enga�ado",
+    "verbo": "engañar",
+    "gerund": "engañando",
+    "partpasado": "engañado",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -2793,7 +2793,7 @@ export const verbs =
   {
     "id": 280,
     "verbo": "enojarse",
-    "gerund": "enoj�ndose",
+    "gerund": "enojándose",
     "partpasado": "enojado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2813,7 +2813,7 @@ export const verbs =
   {
     "id": 282,
     "verbo": "enriquecerse",
-    "gerund": "enriqueci�ndose",
+    "gerund": "enriqueciéndose",
     "partpasado": "enriquecido",
     "irregular": 1,
     "reflexivo": 1,
@@ -2822,9 +2822,9 @@ export const verbs =
   },
   {
     "id": 283,
-    "verbo": "ense�ar",
-    "gerund": "ense�ando",
-    "partpasado": "ense�ado",
+    "verbo": "enseñar",
+    "gerund": "enseñando",
+    "partpasado": "enseñado",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -2853,7 +2853,7 @@ export const verbs =
   {
     "id": 286,
     "verbo": "enterarse",
-    "gerund": "enter�ndose",
+    "gerund": "enterándose",
     "partpasado": "enterado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2913,7 +2913,7 @@ export const verbs =
   {
     "id": 292,
     "verbo": "entusiasmarse",
-    "gerund": "entusiasm�ndose",
+    "gerund": "entusiasmándose",
     "partpasado": "entusiasmado",
     "irregular": 0,
     "reflexivo": 1,
@@ -2933,7 +2933,7 @@ export const verbs =
   {
     "id": 294,
     "verbo": "envejecerse",
-    "gerund": "envejeci�ndose",
+    "gerund": "envejeciéndose",
     "partpasado": "envejecido",
     "irregular": 1,
     "reflexivo": 1,
@@ -2963,7 +2963,7 @@ export const verbs =
   {
     "id": 297,
     "verbo": "equivocarse",
-    "gerund": "equivoc�ndose",
+    "gerund": "equivocándose",
     "partpasado": "equivocado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3003,7 +3003,7 @@ export const verbs =
   {
     "id": 301,
     "verbo": "esconderse",
-    "gerund": "escondi�ndose",
+    "gerund": "escondiéndose",
     "partpasado": "escondido",
     "irregular": 0,
     "reflexivo": 1,
@@ -3312,7 +3312,7 @@ export const verbs =
   },
   {
     "id": 332,
-    "verbo": "fre�r",
+    "verbo": "freír",
     "gerund": "friendo",
     "partpasado": "frito",
     "irregular": 1,
@@ -3403,7 +3403,7 @@ export const verbs =
   {
     "id": 341,
     "verbo": "graduarse",
-    "gerund": "gradu�ndose",
+    "gerund": "graduándose",
     "partpasado": "graduado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3422,9 +3422,9 @@ export const verbs =
   },
   {
     "id": 343,
-    "verbo": "gru�ir",
-    "gerund": "gru�endo",
-    "partpasado": "gru�ido",
+    "verbo": "gruñir",
+    "gerund": "gruñendo",
+    "partpasado": "gruñido",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -3493,7 +3493,7 @@ export const verbs =
   {
     "id": 350,
     "verbo": "hallarse",
-    "gerund": "hall�ndose",
+    "gerund": "hallándose",
     "partpasado": "hallado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3793,7 +3793,7 @@ export const verbs =
   {
     "id": 380,
     "verbo": "irse",
-    "gerund": "y�ndose",
+    "gerund": "yéndose",
     "partpasado": "ido",
     "irregular": 1,
     "reflexivo": 1,
@@ -3803,7 +3803,7 @@ export const verbs =
   {
     "id": 381,
     "verbo": "jactarse",
-    "gerund": "jact�ndose",
+    "gerund": "jactándose",
     "partpasado": "jactado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3833,7 +3833,7 @@ export const verbs =
   {
     "id": 384,
     "verbo": "juntarse",
-    "gerund": "junt�ndose",
+    "gerund": "juntándose",
     "partpasado": "juntado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3903,7 +3903,7 @@ export const verbs =
   {
     "id": 391,
     "verbo": "lavarse",
-    "gerund": "lav�ndose",
+    "gerund": "lavándose",
     "partpasado": "lavado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3914,7 +3914,7 @@ export const verbs =
     "id": 392,
     "verbo": "leer",
     "gerund": "leyendo",
-    "partpasado": "le�do",
+    "partpasado": "leído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 1,
@@ -3943,7 +3943,7 @@ export const verbs =
   {
     "id": 395,
     "verbo": "levantarse",
-    "gerund": "levant�ndose",
+    "gerund": "levantándose",
     "partpasado": "levantado",
     "irregular": 0,
     "reflexivo": 1,
@@ -3973,7 +3973,7 @@ export const verbs =
   {
     "id": 398,
     "verbo": "llamarse",
-    "gerund": "llam�ndose",
+    "gerund": "llamándose",
     "partpasado": "llamado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4103,7 +4103,7 @@ export const verbs =
   {
     "id": 411,
     "verbo": "maquillarse",
-    "gerund": "maquill�ndose",
+    "gerund": "maquillándose",
     "partpasado": "maquillado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4153,7 +4153,7 @@ export const verbs =
   {
     "id": 416,
     "verbo": "matricularse",
-    "gerund": "matricul�ndose",
+    "gerund": "matriculándose",
     "partpasado": "matriculado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4293,7 +4293,7 @@ export const verbs =
   {
     "id": 430,
     "verbo": "moverse",
-    "gerund": "movi�ndose",
+    "gerund": "moviéndose",
     "partpasado": "movido",
     "irregular": 1,
     "reflexivo": 1,
@@ -4313,7 +4313,7 @@ export const verbs =
   {
     "id": 432,
     "verbo": "mudarse",
-    "gerund": "mud�ndose",
+    "gerund": "mudándose",
     "partpasado": "mudado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4373,7 +4373,7 @@ export const verbs =
   {
     "id": 438,
     "verbo": "negarse",
-    "gerund": "neg�ndose",
+    "gerund": "negándose",
     "partpasado": "negado",
     "irregular": 1,
     "reflexivo": 1,
@@ -4482,9 +4482,9 @@ export const verbs =
   },
   {
     "id": 449,
-    "verbo": "o�r",
+    "verbo": "oír",
     "gerund": "oyendo",
-    "partpasado": "o�do",
+    "partpasado": "oído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 1,
@@ -4513,7 +4513,7 @@ export const verbs =
   {
     "id": 452,
     "verbo": "olvidarse",
-    "gerund": "olvid�ndose",
+    "gerund": "olvidándose",
     "partpasado": "olvidado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4533,7 +4533,7 @@ export const verbs =
   {
     "id": 454,
     "verbo": "oponerse",
-    "gerund": "oponi�ndose",
+    "gerund": "oponiéndose",
     "partpasado": "opuesto",
     "irregular": 1,
     "reflexivo": 1,
@@ -4653,7 +4653,7 @@ export const verbs =
   {
     "id": 466,
     "verbo": "peinarse",
-    "gerund": "pein�ndose",
+    "gerund": "peinándose",
     "partpasado": "peinado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4833,7 +4833,7 @@ export const verbs =
   {
     "id": 484,
     "verbo": "ponerse",
-    "gerund": "poni�ndose",
+    "gerund": "poniéndose",
     "partpasado": "puesto",
     "irregular": 1,
     "reflexivo": 1,
@@ -4883,7 +4883,7 @@ export const verbs =
   {
     "id": 489,
     "verbo": "preguntarse",
-    "gerund": "pregunt�ndose",
+    "gerund": "preguntándose",
     "partpasado": "preguntado",
     "irregular": 0,
     "reflexivo": 1,
@@ -4903,7 +4903,7 @@ export const verbs =
   {
     "id": 491,
     "verbo": "prepararse",
-    "gerund": "prepar�ndose",
+    "gerund": "preparándose",
     "partpasado": "preparado",
     "irregular": 0,
     "reflexivo": 1,
@@ -5073,7 +5073,7 @@ export const verbs =
   {
     "id": 508,
     "verbo": "quebrarse",
-    "gerund": "quebr�ndose",
+    "gerund": "quebrándose",
     "partpasado": "quebrado",
     "irregular": 1,
     "reflexivo": 1,
@@ -5093,7 +5093,7 @@ export const verbs =
   {
     "id": 510,
     "verbo": "quedarse",
-    "gerund": "qued�ndose",
+    "gerund": "quedándose",
     "partpasado": "quedado",
     "irregular": 0,
     "reflexivo": 1,
@@ -5103,7 +5103,7 @@ export const verbs =
   {
     "id": 511,
     "verbo": "quejarse",
-    "gerund": "quej�ndose",
+    "gerund": "quejándose",
     "partpasado": "quejado",
     "irregular": 0,
     "reflexivo": 1,
@@ -5123,7 +5123,7 @@ export const verbs =
   {
     "id": 513,
     "verbo": "quemarse",
-    "gerund": "quem�ndose",
+    "gerund": "quemándose",
     "partpasado": "quemado",
     "irregular": 0,
     "reflexivo": 1,
@@ -5283,7 +5283,7 @@ export const verbs =
   {
     "id": 529,
     "verbo": "registrarse",
-    "gerund": "registr�ndose",
+    "gerund": "registrándose",
     "partpasado": "registrado",
     "irregular": 0,
     "reflexivo": 1,
@@ -5332,9 +5332,9 @@ export const verbs =
   },
   {
     "id": 534,
-    "verbo": "re�r",
+    "verbo": "reír",
     "gerund": "riendo",
-    "partpasado": "re�do",
+    "partpasado": "reído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 1,
@@ -5352,9 +5352,9 @@ export const verbs =
   },
   {
     "id": 536,
-    "verbo": "re�ir",
-    "gerund": "ri�endo",
-    "partpasado": "re�ido",
+    "verbo": "reñir",
+    "gerund": "riñendo",
+    "partpasado": "reñido",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 0,
@@ -5663,7 +5663,7 @@ export const verbs =
   {
     "id": 567,
     "verbo": "secarse",
-    "gerund": "sec�ndose",
+    "gerund": "secándose",
     "partpasado": "secado",
     "irregular": 1,
     "reflexivo": 1,
@@ -5682,9 +5682,9 @@ export const verbs =
   },
   {
     "id": 569,
-    "verbo": "se�alar",
-    "gerund": "se�alando",
-    "partpasado": "se�alado",
+    "verbo": "señalar",
+    "gerund": "señalando",
+    "partpasado": "señalado",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -5703,7 +5703,7 @@ export const verbs =
   {
     "id": 571,
     "verbo": "sentarse",
-    "gerund": "sent�ndose",
+    "gerund": "sentándose",
     "partpasado": "sentado",
     "irregular": 1,
     "reflexivo": 1,
@@ -5723,7 +5723,7 @@ export const verbs =
   {
     "id": 573,
     "verbo": "sentirse",
-    "gerund": "sinti�ndose",
+    "gerund": "sintiéndose",
     "partpasado": "sentido",
     "irregular": 1,
     "reflexivo": 1,
@@ -5812,9 +5812,9 @@ export const verbs =
   },
   {
     "id": 582,
-    "verbo": "so�ar",
-    "gerund": "so�ando",
-    "partpasado": "so�ado",
+    "verbo": "soñar",
+    "gerund": "soñando",
+    "partpasado": "soñado",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 0,
@@ -5822,9 +5822,9 @@ export const verbs =
   },
   {
     "id": 583,
-    "verbo": "sonre�r",
+    "verbo": "sonreír",
     "gerund": "sonriendo",
-    "partpasado": "sonre�do",
+    "partpasado": "sonreído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 0,
@@ -5932,9 +5932,9 @@ export const verbs =
   },
   {
     "id": 594,
-    "verbo": "ta�er",
-    "gerund": "ta�endo",
-    "partpasado": "ta�ido",
+    "verbo": "tañer",
+    "gerund": "tañendo",
+    "partpasado": "tañido",
     "irregular": 0,
     "reflexivo": 0,
     "comun": 0,
@@ -5982,9 +5982,9 @@ export const verbs =
   },
   {
     "id": 599,
-    "verbo": "te�ir",
-    "gerund": "ti�endo",
-    "partpasado": "te�ido",
+    "verbo": "teñir",
+    "gerund": "tiñendo",
+    "partpasado": "teñido",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 0,
@@ -6074,7 +6074,7 @@ export const verbs =
     "id": 608,
     "verbo": "traer",
     "gerund": "trayendo",
-    "partpasado": "tra�do",
+    "partpasado": "traído",
     "irregular": 1,
     "reflexivo": 0,
     "comun": 1,
@@ -6263,7 +6263,7 @@ export const verbs =
   {
     "id": 627,
     "verbo": "vestirse",
-    "gerund": "visti�ndose",
+    "gerund": "vistiéndose",
     "partpasado": "vestido",
     "irregular": 1,
     "reflexivo": 1,
@@ -6363,11 +6363,11 @@ export const verbs =
   {
     "id": 637,
     "verbo": "zambullirse",
-    "gerund": "zambull�ndose",
+    "gerund": "zambulléndose",
     "partpasado": "zambullido",
     "irregular": 0,
     "reflexivo": 1,
     "comun": 0,
     "trad_en": "to dive, plunge"
   }
- ]
+]
