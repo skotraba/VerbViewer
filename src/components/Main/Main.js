@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+//Components
+import Conjugation from '../Conjugation/Conjugation';
+
 //Redux
 import { connect } from 'react-redux';
 
@@ -15,21 +18,28 @@ class Main extends Component {
         <h1>{this.props.verb.verbo} - {this.props.verb.trad_en}</h1>
         <span className="Main__span">{this.props.verb.irregular === 0 ? "Regular" : "Irregular"}</span>
         <table className="Main__table Main__table__one">
-          <tr>
-            <td>Gerund: </td>
-            <td>{this.props.verb.gerund}</td>
-          </tr>
-          <tr>
-            <td>Partpasado: </td>
-            <td>{this.props.verb.partpasado}</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>Gerund: </td>
+              <td>{this.props.verb.gerund}</td>
+            </tr>
+            <tr>
+              <td>Partpasado: </td>
+              <td>{this.props.verb.partpasado}</td>
+            </tr>
+          </tbody>
+          
         </table>
+        
         <table className="Main__table Main__table__two">
-          <tr>
+        <tbody>
+           <tr>
             <td>Reflexive: </td>
             <td>{this.props.verb.reflexivo === 0 ? "No" : "Yes"}</td>
           </tr>
+        </tbody>
         </table>
+        <Conjugation/>
       </div>
     );
   }
