@@ -26,11 +26,11 @@
       border-bottom: .1rem solid $primary;
       cursor: pointer;
       transition: all .8s;
-      background-color: yellowgreen;
+      background-color: $highlight1;
     }
 
     &:hover{
-      background-color: yellowgreen;
+      background-color: $highlight1;
     }
   }
 }

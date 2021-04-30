@@ -50,9 +50,10 @@ class Conjugation extends Component {
     console.log(verbs)
 
     return (
-      <div className="ConContainer">
+      <div>
+        <div className="ConContainer">
           <div>
-            <h3>{verbs[current][0].modo}</h3>
+            <h2 className="ConContainer__heading">{verbs[current][0].modo}: </h2>
             <Table
             tiempo={verbs[current][0].tiempo}
             yo={verbs[current][0].yo}
@@ -82,8 +83,52 @@ class Conjugation extends Component {
             vs={verbs[current][2].vs}
             ellos={verbs[current][2].ellos}/>
           </div>
-        
+          <div>
+            <Table
+            tiempo={verbs[current][4].tiempo}
+            yo={verbs[current][4].yo}
+            tu={verbs[current][4].tu}
+            el={verbs[current][4].el}
+            ns={verbs[current][4].ns}
+            vs={verbs[current][4].vs}
+            ellos={verbs[current][4].ellos}/>
+          </div>
+        </div>
+        <div className="ConContainer">
+          <div>
+            <h2 className="ConContainer__heading">{verbs[current][11].modo}: </h2>
+            <Table
+            tiempo={verbs[current][11].tiempo}
+            yo={verbs[current][11].yo}
+            tu={verbs[current][11].tu}
+            el={verbs[current][11].el}
+            ns={verbs[current][11].ns}
+            vs={verbs[current][11].vs}
+            ellos={verbs[current][11].ellos}/>
+          </div>
+          <div>
+            <Table
+            tiempo={verbs[current][12].tiempo}
+            yo={verbs[current][12].yo}
+            tu={verbs[current][12].tu}
+            el={verbs[current][12].el}
+            ns={verbs[current][12].ns}
+            vs={verbs[current][12].vs}
+            ellos={verbs[current][12].ellos}/>
+          </div>
+          <div>
+            <Table
+            tiempo={verbs[current][14].tiempo}
+            yo={verbs[current][14].yo}
+            tu={verbs[current][14].tu}
+            el={verbs[current][14].el}
+            ns={verbs[current][14].ns}
+            vs={verbs[current][14].vs}
+            ellos={verbs[current][14].ellos}/>
+          </div>
+        </div>
       </div>
+      
      
     );
   }

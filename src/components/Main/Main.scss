@@ -3,16 +3,41 @@
 .Main {
   background-color: $primary;
   padding: 5rem;
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
   font-size: 1.2rem;
   align-self: center;
+
+  &__heading {
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__word {
+    color: $highlight1;
+  }
+
+  &__boxOne {
+    align-self: stretch;
+  }
+
+  &__boxTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__span{
     font-style: italic;
   }
 
   &__table {
-    margin: 2rem 0;
+    margin: 1rem 0;
 
 
     &__one{
