@@ -18,12 +18,14 @@ class Sidebar extends Component {
 
     let active = this.props.verb.id - 1;
 
+    let verbList = Data.verbs;
+
 
     return (
       <div className="Sidebar" >
         <SearchArea/>
         <div className="Sidebar__list" >
-        {Data.verbs.map((verb, index) => (
+        {verbList.map((verb, index) => (
           <div 
           onClick={() => this.props.onVerb(index)}
           className = {index == active ? "Sidebar__list-item--active" : "Sidebar__list-item"}

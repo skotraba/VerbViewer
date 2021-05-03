@@ -3,7 +3,8 @@ import * as Data from '../VerbData';
 
 
 const initialState = {
-  currentVerb: Data.verbs[0]
+  currentVerb: Data.verbs[0],
+  verbSearch: ""
 }
 
 const reducer = (state = initialState, action) => {
