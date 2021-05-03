@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+//Components
+import SearchArea from '../SearchArea/SearchArea';
+
 //Redux
 import { connect } from 'react-redux';
 
@@ -18,6 +21,7 @@ class Sidebar extends Component {
 
     return (
       <div className="Sidebar" >
+        <SearchArea/>
         <div className="Sidebar__list" >
         {Data.verbs.map((verb, index) => (
           <div 

@@ -37,9 +37,7 @@ const getVerbs = () => {
 }
 
 
-
 const verbs = getVerbs();
-
 
 class Conjugation extends Component {
   
@@ -47,7 +45,7 @@ class Conjugation extends Component {
   render() {
 
     let current = this.props.verb.id - 1;
-    console.log(verbs)
+    // console.log(verbs)
 
     return (
       <div>
