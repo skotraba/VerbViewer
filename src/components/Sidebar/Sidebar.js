@@ -16,19 +16,36 @@ class Sidebar extends Component {
 
   render() {
 
-    let active = this.props.verb.id - 1;
-
+    let active = this.props.verb;
     let verbList = Data.verbs;
+    console.log(active)
 
+    
+   
+    if(this.props.search != " ")
+    {
+      let filteredVerbs = verbList.filter(word => {
+        return word.verbo.includes(this.props.search)
+      })
+
+      verbList = filteredVerbs;
+    }
+    
+   
+
+    
+   
 
     return (
       <div className="Sidebar" >
-        <SearchArea/>
+        <SearchArea 
+        // change={searchList}
+        />
         <div className="Sidebar__list" >
         {verbList.map((verb, index) => (
           <div 
-          onClick={() => this.props.onVerb(index)}
-          className = {index == active ? "Sidebar__list-item--active" : "Sidebar__list-item"}
+          onClick={() => this.props.onVerb(verb)}
+          className = {verb.verbo == active.verbo ? "Sidebar__list-item--active" : "Sidebar__list-item"}
           key={verb.id + index}>{verb.verbo}</div>
         ))}
         </div>
@@ -42,12 +59,13 @@ class Sidebar extends Component {
 const mapStateToProps = state => {
   return {
     verb: state.currentVerb,
+    search: state.verbSearch
   }
 }
 
 const mapDispatchToProps = dispatch => {
   return {
-    onVerb: (id) => dispatch({ type: 'CHANGE', id: id} )
+    onVerb: (verb) => dispatch({ type: 'CHANGE', verb: verb} )
   }
 }
 
