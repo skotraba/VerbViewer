@@ -18,7 +18,6 @@ class Sidebar extends Component {
 
     let active = this.props.verb;
     let verbList = Data.verbs;
-    console.log(active)
 
     
    
@@ -30,16 +29,20 @@ class Sidebar extends Component {
 
       verbList = filteredVerbs;
     }
-    
-   
 
+    const onClear = () => {
+      const searchInput = document.getElementById("search")
+      searchInput.value = searchInput.defaultValue;
+
+      this.props.onClear();
+    }
     
-   
+  
 
     return (
       <div className="Sidebar" >
         <SearchArea 
-        // change={searchList}
+        // change={onClear}
         />
         <div className="Sidebar__list" >
         {verbList.map((verb, index) => (
@@ -48,6 +51,7 @@ class Sidebar extends Component {
           className = {verb.verbo == active.verbo ? "Sidebar__list-item--active" : "Sidebar__list-item"}
           key={verb.id + index}>{verb.verbo}</div>
         ))}
+        <a className="Sidebar__list-item Sidebar__link" onClick={onClear}>Clear</a>
         </div>
       </div>
     );
@@ -65,7 +69,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onVerb: (verb) => dispatch({ type: 'CHANGE', verb: verb} )
+    onVerb: (verb) => dispatch({ type: 'CHANGE', verb: verb} ),
+    onClear: () => dispatch({type: 'CLEAR'})
   }
 }
 

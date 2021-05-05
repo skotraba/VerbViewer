@@ -24,6 +24,14 @@ const reducer = (state = initialState, action) => {
    }
    return newState
  }
+ if(action.type === 'CLEAR'){
+   let clear = " ";
+   let newState = {
+     ...state,
+     verbSearch: clear
+   }
+   return newState
+ }
  return state;
    
 }
