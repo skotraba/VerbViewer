@@ -25,13 +25,13 @@ class Sidebar extends Component {
     if(this.props.search != " ")
     {
       let filteredVerbs = verbList.filter(word => {
-        return word.verbo.includes(this.props.search)
-        // return word.verbo.includes("poder")
+        let test = this.props.search.toLowerCase();
+        return word.verbo.includes(test)
       })
-      // alert(filteredVerbs[0].verbo)
-      // console.log(filteredVerbs[0])
+
 
       verbList = filteredVerbs;
+  
     }
 
     const onClear = () => {
