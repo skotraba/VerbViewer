@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/VerbViewer/static/css/main.4ce48567.chunk.css",
+    "main.js": "/VerbViewer/static/js/main.e8cb57a4.chunk.js",
+    "main.js.map": "/VerbViewer/static/js/main.e8cb57a4.chunk.js.map",
+    "runtime-main.js": "/VerbViewer/static/js/runtime-main.cef1545a.js",
+    "runtime-main.js.map": "/VerbViewer/static/js/runtime-main.cef1545a.js.map",
+    "static/js/2.65916961.chunk.js": "/VerbViewer/static/js/2.65916961.chunk.js",
+    "static/js/2.65916961.chunk.js.map": "/VerbViewer/static/js/2.65916961.chunk.js.map",
+    "static/js/3.992e224c.chunk.js": "/VerbViewer/static/js/3.992e224c.chunk.js",
+    "static/js/3.992e224c.chunk.js.map": "/VerbViewer/static/js/3.992e224c.chunk.js.map",
+    "index.html": "/VerbViewer/index.html",
+    "static/css/main.4ce48567.chunk.css.map": "/VerbViewer/static/css/main.4ce48567.chunk.css.map",
+    "static/js/2.65916961.chunk.js.LICENSE.txt": "/VerbViewer/static/js/2.65916961.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cef1545a.js",
+    "static/js/2.65916961.chunk.js",
+    "static/css/main.4ce48567.chunk.css",
+    "static/js/main.e8cb57a4.chunk.js"
+  ]
+}
