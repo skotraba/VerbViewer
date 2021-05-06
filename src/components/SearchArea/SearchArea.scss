@@ -1,0 +1,30 @@
+@import "../../Variables.scss";
+
+
+.SearchArea {
+}
+
+.Search {
+  padding: 1rem;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: $primary;
+  color: white;
+  transition: all .2s;
+  width: 100%;
+ 
+
+  &::placeholder {
+    color: white;
+  }
+
+  &:focus {
+    box-sizing: border-box;
+    background-color: rgb(77, 78, 78);
+  }
+
+
+
+}
+
+
