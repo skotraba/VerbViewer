@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/VerbViewer/static/css/main.4ce48567.chunk.css",
-    "main.js": "/VerbViewer/static/js/main.207f53f1.chunk.js",
-    "main.js.map": "/VerbViewer/static/js/main.207f53f1.chunk.js.map",
+    "main.js": "/VerbViewer/static/js/main.b4cc4fbf.chunk.js",
+    "main.js.map": "/VerbViewer/static/js/main.b4cc4fbf.chunk.js.map",
     "runtime-main.js": "/VerbViewer/static/js/runtime-main.cef1545a.js",
     "runtime-main.js.map": "/VerbViewer/static/js/runtime-main.cef1545a.js.map",
     "static/js/2.65916961.chunk.js": "/VerbViewer/static/js/2.65916961.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cef1545a.js",
     "static/js/2.65916961.chunk.js",
     "static/css/main.4ce48567.chunk.css",
-    "static/js/main.207f53f1.chunk.js"
+    "static/js/main.b4cc4fbf.chunk.js"
   ]
 }
