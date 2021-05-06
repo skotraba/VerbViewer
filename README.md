@@ -75,3 +75,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 > npm install node-sass --save
 > npm install react-redux
 > npm install --save redux
+> npm install react-icons --save

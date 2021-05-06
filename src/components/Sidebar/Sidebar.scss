@@ -7,6 +7,9 @@
   font-size: 1.2rem;
   overflow: auto;
   overflow-x: hidden;
+  transition: all .4s;
+
+  
 
   &__list {
     display: flex;
@@ -40,4 +43,10 @@
     color: $highlight1;
     background-color: $primary;
   }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+ 
 }

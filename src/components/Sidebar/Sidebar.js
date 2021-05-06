@@ -18,6 +18,7 @@ class Sidebar extends Component {
 
     let active = this.props.verb;
     let verbList = Data.verbs;
+    let show = true;
 
     
    
@@ -40,7 +41,7 @@ class Sidebar extends Component {
   
 
     return (
-      <div className="Sidebar" >
+      <div className="Sidebar">
         <SearchArea 
         // change={onClear}
         />
@@ -49,7 +50,8 @@ class Sidebar extends Component {
           <div 
           onClick={() => this.props.onVerb(verb)}
           className = {verb.verbo == active.verbo ? "Sidebar__list-item--active" : "Sidebar__list-item"}
-          key={verb.id + index}>{verb.verbo}</div>
+          key={verb.id + index}>{verb.verbo}
+          </div>
         ))}
         <a className="Sidebar__list-item Sidebar__link" onClick={onClear}>Clear</a>
         </div>
